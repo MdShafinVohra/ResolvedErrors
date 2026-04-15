@@ -1,6 +1,3 @@
-Thanks for sharing those config files—it makes the issue much clearer. The error `components.ComponentMod.handler is not a function` points to an internal mismatch between how Next.js builds the application and what the Cloudflare adapter (`@opennextjs/cloudflare`) expects. Let's walk through the likely causes and fixes.
-
----
 
 ### 🔍 Primary Issue: Missing `output: "standalone"` in Next.js Config
 
